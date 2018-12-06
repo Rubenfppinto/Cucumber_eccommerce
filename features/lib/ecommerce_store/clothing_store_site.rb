@@ -7,7 +7,7 @@ require_relative 'pages/clothing_store_shopping_cart_summary_page'
 require_relative 'pages/clothing_store_checkout_address_page'
 require_relative 'pages/clothing_store_shipping_page'
 
-class ClothingStoreSite
+module ClothingStoreSite
 
     def clothing_store_homepage
         ClothingStoreHomepage.new
