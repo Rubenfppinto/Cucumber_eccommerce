@@ -28,6 +28,6 @@ class ClothingStoreMyAccount
     end
 
     def submit_search
-        find(SUBMIT_SEARCH_BUTTON).click()
+        find('.button-search').click()
     end
 end

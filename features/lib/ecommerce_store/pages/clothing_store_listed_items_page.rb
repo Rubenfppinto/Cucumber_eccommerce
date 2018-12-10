@@ -23,7 +23,7 @@ class ClothingStoreListedItemsPage
     end
 
     def click_add_to_cart_button
-        find('#add_to_cart').find(ADD_TO_CART_BUTTON).click
+        find("a[title='Add to cart'").click()
     end
 
 end
